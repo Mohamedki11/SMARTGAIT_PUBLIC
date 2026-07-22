@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -flto=auto -shared  -o ../python_test_pybind11/test_pybind.cpython-310-aarch64-linux-gnu.so CMakeFiles/test_pybind.dir/Cpp_test_pybind/test_somme.cpp.o 

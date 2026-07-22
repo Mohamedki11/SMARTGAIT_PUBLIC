@@ -1,0 +1,29 @@
+===================================================
+mar. 21 juil. 2026 12:01:16 CEST: [WATCHDOG] Launching MASTER_CONTROL.py...
+      ************ SMART GAIT STARTING **************       
+SYSTEM READY... Saving DATA and Video to :/home/jetsonano-smartgaitlab/Desktop/Projet/Projet_ETIS_SMARTGAIT_DATA_LOGGER/__LOGS__
+[TELEMETRY] Started monitoring PID: 252248
+[TRIGGER NODE]: initilizing GPIOs ...
+ * Serving Flask app 'MASTER_CONTROL'
+ * Debug mode: off
+[RADAR REALTIME] Thread Started! Setting up Shared Memory...
+Opening in BLOCKING MODE 
+[ WARN:0@0.104] global cap_gstreamer.cpp:2784 handleMessage OpenCV | GStreamer warning: Embedded video playback halted; module v4l2src0 reported: Cannot identify device '/dev/video1'.
+[ WARN:0@0.105] global cap_gstreamer.cpp:1679 open OpenCV | GStreamer warning: unable to start pipeline
+[ WARN:0@0.105] global cap_gstreamer.cpp:1164 isPipelinePlaying OpenCV | GStreamer warning: GStreamer: pipeline have not been created
+[ WARN:0@0.105] global cap.cpp:204 open VIDEOIO(GSTREAMER): backend is generally available but can't be used to capture by name
+ERROR
+[RADAR] USB Catcher Thread Started :
+[RADAR REALTIME] Thread Safely Stopped.
+[RADAR]: SUCCESS: listening to endpoint 6
+[RADAR] Sending 24GHz Boot Sequence...
+[RADAR] 24GHz PLL Locked and Sweeping!
+[RADAR]: usb catcher thread stopped
+[CAMERA NODE]: STARTING CAMERA ENGINE
+   ---> [HEALTH] RAM: 50.0 MB | Open Files (FDs): 6 | Threads: 4
+*********************WAITING TRIGGER******************
+[CAMERA]: ERROR DETECTED IN THE PRODUCER(CAMERA) THREAD/QUEUE...CHECK THE CAMERA IS CORRECTLY WORKING ...EXITING
+[CAMERA NODE]: STOPPING CAMERA
+Stopping radar...
+system OFF. GOODBYE
+mar. 21 juil. 2026 12:01:21 CEST: ❌ [WATCHDOG] Script exited with code 10 (Camera physically disconnected.) after 5 seconds
